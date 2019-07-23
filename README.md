@@ -9,12 +9,14 @@ An application that sends an e-mail to a list of registered users whenever a new
 # Installations
 
     pip install pandas numpy sendgrid bs4 lxml xlrd --user 
+
     - Pandas and Numpy are modules to handle data
     - SendGrid is an API to send e-mails.
     - bs4 or beautiful soup 4 is a package in python used to extract information from various data formats
     - lxml is a data format
     - xlrd is used to handle excel files ( The attenders list is an excel file.)
     -  "--user" grants the privilege to make permanent changes to the server.
+    
     Now the script is scheduled to run daily with the help of crontab.
 
 # To edit crontab
